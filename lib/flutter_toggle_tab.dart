@@ -215,7 +215,7 @@ class _FlutterToggleTabState extends State<FlutterToggleTab> {
                                       .textTheme
                                       .bodyMedium
                                       ?.color
-                                      ?.withValues(alpha: 0.7),
+                                      ?.withOpacity(0.7)
                                 ),
                         isSelected: labels[index].isSelected,
 
